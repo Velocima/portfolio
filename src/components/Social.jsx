@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/social.css';
 
 export default function Social() {
 	return (
