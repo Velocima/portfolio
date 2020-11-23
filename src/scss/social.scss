@@ -1,12 +1,27 @@
+@import './variables/variables';
+
 nav {
+	display: flex;
 	position: fixed;
 	top: 5vh;
 	right: 5vh;
-	.react-icons {
-		color: black;
-		width: 2rem;
-		height: 2rem;
-		vertical-align: 'middle';
-		margin-left: 1rem;
+	a {
+		display: grid;
+		place-items: center;
+		padding: 5px;
+		border-radius: 5px;
+		transition: all 0.4s;
+		.react-icons {
+			color: black;
+			width: 32px;
+			height: 32px;
+			vertical-align: 'middle';
+		}
+	}
+	a:hover {
+		background-color: $darken-off-white;
+	}
+	a:first-child {
+		margin-right: 10px;
 	}
 }
