@@ -3,7 +3,7 @@ import Landing from './Landing';
 
 function App() {
 	return (
-		<div className='App'>
+		<div className='app'>
 			<Landing />
 		</div>
 	);
