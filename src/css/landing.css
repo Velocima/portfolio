@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:wght@400;700&display=swap");
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  min-height: 90vh; }
+  main h1 {
+    font-size: 5rem;
+    font-weight: 700;
+    margin-bottom: 3rem; }
+    main h1 span {
+      color: #0088cc; }
+  main h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem; }
+  main p {
+    font-size: 2rem;
+    font-weight: 400; }
+    main p a {
+      color: #dd1aff;
+      text-decoration: none; }

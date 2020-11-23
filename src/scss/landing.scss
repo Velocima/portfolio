@@ -1,0 +1,30 @@
+@import './variables/variables';
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-width: 100%;
+	min-height: 90vh;
+	h1 {
+		font-size: 5rem;
+		font-weight: 700;
+		margin-bottom: 3rem;
+		span {
+			color: $text-highlight-blue;
+		}
+	}
+	h2 {
+		font-size: 3rem;
+		margin-bottom: 3rem;
+	}
+	p {
+		font-size: 2rem;
+		font-weight: 400;
+		a {
+			color: $text-highlight-purple;
+			text-decoration: none;
+		}
+	}
+}
