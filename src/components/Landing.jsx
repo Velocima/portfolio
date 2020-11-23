@@ -6,7 +6,7 @@ export default function Landing() {
 	return (
 		<main>
 			<h1>
-				Hi, I'm <span>Max</span>
+				Hi, I'm <span>Max Hartley</span>
 			</h1>
 			<h2>A Full Stack Developer</h2>
 			<p>
