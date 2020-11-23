@@ -2,4 +2,11 @@ nav {
 	position: fixed;
 	top: 5vh;
 	right: 5vh;
+	.react-icons {
+		color: black;
+		width: 2rem;
+		height: 2rem;
+		vertical-align: 'middle';
+		margin-left: 1rem;
+	}
 }
