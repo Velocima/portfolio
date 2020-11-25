@@ -27,22 +27,25 @@
 
 	article {
 		width: 100%;
-		display: grid;
-		grid-template-rows: 1;
-		grid-template-columns: 1fr 1fr;
-		place-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		img {
 			grid-column: 1 / 3;
 			width: 80%;
 			box-shadow: 0 2px 6px $dark-grey;
 		}
-		a {
+		.links {
 			margin: 16px;
-			padding: 5px;
-			font-size: 20px;
-			color: $text-highlight-purple;
-			text-decoration: none;
-			border-radius: 5px;
+			a {
+				margin: 16px;
+				padding: 5px;
+				font-size: 20px;
+				color: $text-highlight-purple;
+				text-decoration: none;
+				border-radius: 5px;
+			}
 		}
 	}
 }

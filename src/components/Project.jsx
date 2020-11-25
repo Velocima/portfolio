@@ -6,14 +6,16 @@ export default function Project(props) {
 	return (
 		<article>
 			<img src={props.image} alt={props.imageAlt} />
-			<a href={props.codeLink} target='_blank'>
-				<IconContext.Provider value={{ className: 'react-icons' }}>
-					Code <BiLink />
-				</IconContext.Provider>
-			</a>
-			<a href={props.websiteLink} target='_blank'>
-				Live version <BiLink />
-			</a>
+			<div className='links'>
+				<a href={props.codeLink} target='_blank'>
+					<IconContext.Provider value={{ className: 'react-icons' }}>
+						Code <BiLink />
+					</IconContext.Provider>
+				</a>
+				<a href={props.websiteLink} target='_blank'>
+					Live <BiLink />
+				</a>
+			</div>
 		</article>
 	);
 }
