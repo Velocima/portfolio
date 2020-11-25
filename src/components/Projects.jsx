@@ -21,6 +21,7 @@ export default function Projects() {
 						imageAlt={project.imageAlt}
 						codeLink={project.codeLink}
 						websiteLink={project.websiteLink}
+						key={index}
 					/>
 				);
 			})}
