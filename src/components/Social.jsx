@@ -7,7 +7,7 @@ import { BiEnvelope } from 'react-icons/bi';
 export default function Social() {
 	return (
 		<nav>
-			<a href='https://github.com/Velocima'>
+			<a href='https://github.com/Velocima' target='_blank'>
 				<img src={githubLogo} alt='' />
 			</a>
 			<a href='mailto:'>
